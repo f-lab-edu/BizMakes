@@ -1,12 +1,8 @@
 # BizMakes
 
-## Figma
-
-https://www.figma.com/design/gR9vAWTzd4X1O2XsfTMGg6/BizMake?node-id=0-1&t=CQ3sEUuUp6DnBEAR-1
-
-## ERD
-
-https://www.erdcloud.com/d/MGydqQnvBNfXm6pBq
+- 서버 접속 주소: http://ec2-52-78-48-184.ap-northeast-2.compute.amazonaws.com:8080
+- Figma: https://www.figma.com/design/gR9vAWTzd4X1O2XsfTMGg6
+- ERD: https://www.erdcloud.com/d/MGydqQnvBNfXm6pBq
 
 ## 요구사항
 
