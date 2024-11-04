@@ -1,6 +1,12 @@
 # BizMakes
+> 서버 접속 주소: http://ec2-52-78-48-184.ap-northeast-2.compute.amazonaws.com:8080
 
-- 서버 접속 주소: http://ec2-52-78-48-184.ap-northeast-2.compute.amazonaws.com:8080
+## 기술 스택
+
+- Kotlin SpringBoot
+- Spring Web MVC, Data JPA
+- MySQL, H2
+- 인프라: AWS EC2/RDS
 
 ## Figma
 
