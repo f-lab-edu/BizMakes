@@ -1,8 +1,20 @@
 # BizMakes
 
 - 서버 접속 주소: http://ec2-52-78-48-184.ap-northeast-2.compute.amazonaws.com:8080
-- Figma: https://www.figma.com/design/gR9vAWTzd4X1O2XsfTMGg6
-- ERD: https://www.erdcloud.com/d/MGydqQnvBNfXm6pBq
+
+## Figma
+
+> https://www.figma.com/design/gR9vAWTzd4X1O2XsfTMGg6
+
+![CleanShot 2024-11-04 at 19 29 30@2x](https://github.com/user-attachments/assets/2aefd129-c7c0-4d40-8ebe-155e9b222076)
+![CleanShot 2024-11-04 at 19 29 40@2x](https://github.com/user-attachments/assets/3bacbf70-13df-490f-8121-22a5f9a90b73)
+![CleanShot 2024-11-04 at 19 29 46@2x](https://github.com/user-attachments/assets/224feebe-f342-43f5-a179-a9f810059af2)
+
+## ERD
+
+> https://www.erdcloud.com/d/MGydqQnvBNfXm6pBq
+
+![BizMakes](https://github.com/user-attachments/assets/93c842a0-f12d-4e23-b2dc-cf457cc2498e)
 
 ## 요구사항
 
