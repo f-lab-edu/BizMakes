@@ -55,5 +55,5 @@ jobs:
         run: scp *.jar ${{ secrets.SERVER_USERNAME}}@${{ secrets.SERVER_IP }}:~/cicd
       - name: Execute remote commands
         run: |
-          ssh -v ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }} "sudo fuser -k 8080/tcp || true"
+          ssh -v ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }} "for pid in $(ps aux | grep java | grep -v grep | awk '{print $2}'); do kill -15 $pid && wait $pid; done"
           ssh -v ${{ secrets.SERVER_USERNAME }}@${{ secrets.SERVER_IP }} "sudo nohup java -jar ~/cicd/*.jar  > ~/cicd/nohup.log 2>&1 &"
